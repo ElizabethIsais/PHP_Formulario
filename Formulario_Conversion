@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Conversión de números </title>
-		<script src="scripts/conversionNumeros.js"></script>
 	</head>
 
 	<body>
