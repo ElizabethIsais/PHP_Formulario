@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Ejercicios con Cadena </title>
+	</head>
+
+	<body>
+		<h3 name="titulo" value="Obtener Cadena">Obtener Resultados de Cadena</h3>
+		<hr>
+		<form method="POST" action="ResultadosCadena.php" name="formularioCadena"> 
+			<br><label>Ingrese una cadena: </label><input type="text" id="cajaCadena" name:"cajaCadena">
+
+
+			<br><br><input type="submit" value="Cadena Loca" id="btnCadenaLoca" name="btnCadenaLoca" onclick="sacarCadenaLoca();">
+
+			<input type="submit" value="Cantidad de vocales" id="btnVocales" name="btnVocales" onclick="vocales();">
+
+			<input type="submit" value="Cantidad de consonantes" id="btnConsonantes" name="btnConsonantes" onclick="consonantes();">
+			
+			<input type="reset" value="Reset" id="btnReset" name="btnReset">
+
+			<br>
+			<br>
+			<p>Claudia Elizabeth Saldivar Isais 7°ISC</p>
+		</form>
+	</body>
+</html>
