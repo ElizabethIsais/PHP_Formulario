@@ -1,0 +1,10 @@
+<?php
+	$num1 = $_POST["cajaValor"];
+
+	echo "Binario: " . decbin($num1);
+
+	   echo"Octal: " . decoct($num1);
+
+	    echo "Hexadecimal: " . dechex($num1);
+	    
+?>
