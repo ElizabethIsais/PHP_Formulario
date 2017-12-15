@@ -1,0 +1,41 @@
+   <?php
+
+    $nombre = $_POST["cajaNombre"];
+    $nombre = strtoupper(substr($nombre,0));
+  
+    $primerAp = $_POST["cajaApPaterno"];
+    $primerAp = strtoupper(substr($primerAp,0)) ;
+    $primerAp2 = strtoupper(substr($primerAp, 1,2)) ; 
+    
+    $segundoAp = $_POST["cajaApMaterno"];
+    $segundoAp = strtoupper(substr($segundoAp,0));
+           
+    $fecha = $_POST["cajaFecha"];
+    $fecha = substr($fecha,6);
+
+    $fecha2 = $_POST["cajaFecha"];
+    $fecha2= substr($fecha2,3,5);    
+
+    $fecha3 = $_POST["cajaFecha"];
+    $fecha3= substr($fecha3,2); 
+
+    $sexo = $_POST["cajaGenero"];
+    $sexo = strtoupper(substr($sexo,0)); 
+
+    $ent =  $_POST["cajaEntidad"];
+    $ent = strtoupper(substr($ent,0));  
+
+    $conPat = $_POST["cajaApPaterno"]; 
+    $conPat = strtoupper(substr($conPat,1));  
+
+    $conMat = $_POST["cajaApMaterno"];
+    $conMat = strtoupper(substr($conMat,2));  
+
+    $conN = $_POST["cajaNombre"];
+    $conN = strtoupper(substr($conN,2));  
+
+    
+
+    echo "Su curp es: " . $primerAp  . $primerAp2 .  $segundoAp . $nombre  . $fecha . $fecha2 . $fecha3 . $sexo . $ent . $conPat . $conMat . $conN ."00";
+
+?>
