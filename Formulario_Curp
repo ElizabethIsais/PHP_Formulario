@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang ="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Generar CURP con PHP</title>
+	</head>
+
+	<body>
+		<h3 name="titulo" value="Obtener CURP">Obtener CURP</h3>
+		<hr>
+		<form name="formularioCURP" method="POST" action="generarCURP.php"> 
+			<br><label>Nombre (s): </label><input type="text" id="cajaNombre" name:"cajaNombre" style="text-transform: uppercase">
+			<br><label>Apellido Paterno: </label><input type="text" id="cajaApPaterno" name:"cajaApPaterno" style="text-transform: uppercase">
+			<br><label>Apellido Materno: </label><input type="text" id="cajaApMaterno" name:"cajaApMaterno" style="text-transform: uppercase">
+			<br><label>Fecha de Nacimiento: </label><input type="text" id="cajaFechaNacimiento"name:"cajaFechaNacimiento" placeholder="dd/mm/aaaa">
+			<br><label>Género: </label> <input type ="text" id="cajaGenero" name="cajaGenero" placeholder="Hombre/Mujer">
+			<br><label>Entidad Federativa: </label><input type="text" id= "cajaEntidad" name:"cajaEntidad" style="text-transform: uppercase">
+			<br>
+			<input type="submit" value="Obtener CURP" id="btnObtenerCURP" name="btnObtenerCURP">
+			<input type="reset" value="Reset" id="btnReset" name="btnReset">
+
+			<br>
+			<br>
+			<p>Claudia Elizabeth Saldivar Isais 7°ISC</p>
+		</form>
+	</body>
+	</html>
